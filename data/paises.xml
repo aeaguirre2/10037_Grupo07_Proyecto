@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Ecuador>
+    <nombre>Ecuador</nombre>
+    <plato_tipico>Ceviche</plato_tipico>
+    <plato_tipico>Encebollado</plato_tipico>
+    <plato_tipico>Llapingachos</plato_tipico>
+    <plato_tipico>Seco de Chivo</plato_tipico>
+    <moneda>Dólar estadounidense</moneda>
+    <bandera>img/ecuador.png</bandera>
+    <provincias>
+      <Pichincha>
+        <nombre>Pichincha</nombre>
+        <numCiudades>10</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Quito</nombre>
+            <CodigoPostal>170150</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Cumbayá</nombre>
+            <CodigoPostal>170184</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Sangolquí</nombre>
+            <CodigoPostal>170102</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Pichincha>
+      <Guayas>
+        <nombre>Guayas</nombre>
+        <numCiudades>12</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Guayaquil</nombre>
+            <CodigoPostal>090101</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Durán</nombre>
+            <CodigoPostal>090153</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Samborondón</nombre>
+            <CodigoPostal>090160</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Guayas>
+      <Azuay>
+        <nombre>Azuay</nombre>
+        <numCiudades>6</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Cuenca</nombre>
+            <CodigoPostal>010150</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Gualaceo</nombre>
+            <CodigoPostal>010250</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Paute</nombre>
+            <CodigoPostal>010350</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Azuay>
+    </provincias>
+  </Ecuador>
+  <Argentina>
+    <nombre>Argentina</nombre>
+    <plato_tipico>Asado</plato_tipico>
+    <plato_tipico>Empanadas</plato_tipico>
+    <plato_tipico>Milanesa</plato_tipico>
+    <plato_tipico>Mate</plato_tipico>
+    <moneda>Peso argentino</moneda>
+    <bandera>img/argentina.png</bandera>
+    <provincias>
+      <Buenos_Aires>
+        <nombre>Buenos Aires</nombre>
+        <numCiudades>10</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Buenos Aires</nombre>
+            <CodigoPostal>C1000</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>La Plata</nombre>
+            <CodigoPostal>B1900</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Mar del Plata</nombre>
+            <CodigoPostal>B7600</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Buenos_Aires>
+      <Córdoba>
+        <nombre>Córdoba</nombre>
+        <numCiudades>8</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Córdoba</nombre>
+            <CodigoPostal>X5000</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Villa María</nombre>
+            <CodigoPostal>X5900</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Río Cuarto</nombre>
+            <CodigoPostal>X5800</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Córdoba>
+      <Mendoza>
+        <nombre>Mendoza</nombre>
+        <numCiudades>5</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Mendoza</nombre>
+            <CodigoPostal>M5500</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>San Rafael</nombre>
+            <CodigoPostal>M5600</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Godoy Cruz</nombre>
+            <CodigoPostal>M5501</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Mendoza>
+    </provincias>
+  </Argentina>
+  <Paraguay>
+    <nombre>Paraguay</nombre>
+    <plato_tipico>Sopa paraguaya</plato_tipico>
+    <plato_tipico>Chipa</plato_tipico>
+    <plato_tipico>Asado paraguayo</plato_tipico>
+    <plato_tipico>Mandioca</plato_tipico>
+    <moneda>Guaraní paraguayo</moneda>
+    <bandera>img/paraguay.png</bandera>
+    <provincias>
+      <Asunción>
+        <nombre>Asunción</nombre>
+        <numCiudades>7</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>La Catedral</nombre>
+            <CodigoPostal>1001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Mburicaó</nombre>
+            <CodigoPostal>1004</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Sajonia</nombre>
+            <CodigoPostal>1007</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Asunción>
+      <Alto_Paraná>
+        <nombre>Alto Paraná</nombre>
+        <numCiudades>10</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Ciudad del Este</nombre>
+            <CodigoPostal>7000</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Minga Guazú</nombre>
+            <CodigoPostal>7470</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Presidente Franco</nombre>
+            <CodigoPostal>7550</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Alto_Paraná>
+      <Central>
+        <nombre>Central</nombre>
+        <numCiudades>12</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>San Lorenzo</nombre>
+            <CodigoPostal>2100</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Luque</nombre>
+            <CodigoPostal>2060</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Areguá</nombre>
+            <CodigoPostal>2840</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Central>
+    </provincias>
+  </Paraguay>
+</root>

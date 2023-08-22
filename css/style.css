@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Blouse";
+  src: url("fonts/Blouse-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MidNew";
+  src: url("fonts/Midnew.ttf") format("truetype");
+}
+
+.navbar-style {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background-image: url("img/fondos/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  font-family: "Nunito", sans-serif;
+  color: rgb(159, 159, 159);
+  font-size: 16px;
+}
+
+.create-site-btn {
+  margin-left: 10px;
+}
+
+.main-btn1 {
+  border-radius: 8px;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  background-color: #00000018;
+  color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+}
+
+.main-btn1:hover {
+  transition: 0.3s;
+  background-color: azure;
+  color: #000000;
+  border: 1px solid rgba(240, 255, 255, 0);
+}
+.main-btn1 i {
+  margin-right: 15px; /* Agrega un espacio entre el icono y el texto */
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.active1 {
+  color: #ffffff;
+}
+
+.hero-text {
+  background-image: linear-gradient(to bottom right, #ffe600, #eeff37, #24f744);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 110px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "MidNew", sans-serif;
+  /* -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #ffffff; */
+}
+
+.hero-text3 {
+  font-size: 110px;
+  font-family: "MidNew", sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.hero-text2 {
+  color: rgb(255, 255, 255);
+  /* font-family: 'Blouse', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Oculta el dropdown por defecto */
+#hoverDropdown .dropdown-menu {
+  display: none;
+}
+
+/* Muestra el dropdown al hacer hover en el elemento padre */
+#hoverDropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Ajusta el estilo del enlace en hover */
+#hoverDropdown.nav-item:hover .nav-link {
+  color: #ffffff; /* Cambia el color del texto al hacer hover */
+}
+.paises-text {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+}
+.ho1{
+  text-decoration: none !important; 
+  color:white
+}
+.ho1:hover {
+  transition: 0.3s;
+  color: #000000;
+}
